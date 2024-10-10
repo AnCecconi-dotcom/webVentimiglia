@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : rgb(28, 26, 27);
+    --secondary-color: rgb(126, 179, 24);
+    --tertiary-color: rgb(42, 3, 74);
+    --quaternary-color: rgb(246, 250, 242);
+}
+
+html, body{
+    font-family: "Afacad", sans-serif!important;
+}
+
+/* ESTILOS NAVBAR */
+header {
+    background-color: var(--primary-color)!important;
+    padding: 1rem 6rem;
+}
+.logo:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+ul.navbar-nav li a {
+    font-size: 2rem;
+    color: var(--quaternary-color);
+}
+ul.navbar-nav li a:hover {
+    color: var(--secondary-color);
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ESTILOS CAROUSEL */
+.carousel-item {
+    position: relative;
+}
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+.carousel-item img {
+    width: auto;
+    height: 650px;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: 0;
+}
+.third-slide img {
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+.custom-caption {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%; 
+    z-index: 1;
+}
+.custom-caption h2 {
+    font-size: 6rem;
+    color: var(--quaternary-color);
+}
+.custom-caption p {
+    font-size: 2rem;
+    color: var(--quaternary-color);
+}
+
+/* ESTILOS TITULO */
+h1 {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color)!important;
+    font-size: 5rem;
+}
+h1 span {
+    color: var(--secondary-color);
+}
+
+
