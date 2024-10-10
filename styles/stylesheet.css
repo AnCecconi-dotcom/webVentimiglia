@@ -37,6 +37,9 @@ ul.navbar-nav li a:hover {
     display: flex;
     justify-content: space-between;
 }
+.nav-active {
+    color: var(--secondary-color)!important;
+}
 
 
 /* ESTILOS CAROUSEL */
