@@ -126,3 +126,13 @@ ul.navbar-nav li a:hover {
 .card {
     border: none!important;
 }
+
+/* FORMULARIO */
+.form-container {
+    max-width: 700px;
+    margin: 2em auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 50px 50px 50px rgba(0, 0, 0, 0.2);
+}
