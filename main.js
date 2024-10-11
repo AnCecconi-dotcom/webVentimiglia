@@ -32,13 +32,6 @@ function validateContactForm() {
 
     return true; // Permite el envío del formulario
 }
-
-function resetForm() {
+window.onload = function() {
     document.getElementById("form").reset();
 }
-//LLama a la funcion reset despues del submit
-document.getElementById("form").addEventListener("submit", function(event) {
-    if (validateContactForm(event)) {
-        resetForm();
-    }
-});
