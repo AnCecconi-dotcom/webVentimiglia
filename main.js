@@ -32,6 +32,8 @@ function validateContactForm() {
 
     return true; // Permite el envío del formulario
 }
+
+//Resteo de formulario al recargar la pagina
 window.onload = function() {
     document.getElementById("form").reset();
 }
