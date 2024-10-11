@@ -27,7 +27,7 @@ header {
     transform: scale(1.1);
 }
 ul.navbar-nav li a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--quaternary-color);
 }
 ul.navbar-nav li a:hover {
@@ -90,13 +90,39 @@ ul.navbar-nav li a:hover {
 }
 
 /* ESTILOS TITULO */
-h1 {
+.title-home {
     background-color: var(--primary-color);
     color: var(--quaternary-color)!important;
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
-h1 span {
+.title-home span {
     color: var(--secondary-color);
 }
 
-
+/* ESTILOS CARDS */
+.title-cards {
+    font-size: 3rem;
+    margin: 1em 0;
+}
+.btn-green {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color)!important;
+    border: none;
+    margin: 1em 0;
+    padding: 0.5em 5em;
+    border-radius: 1em;
+    font-size: 1.5rem;
+}
+.btn-green:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)!important;
+    transition: all 0.3s;
+} 
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card {
+    border: none!important;
+}
