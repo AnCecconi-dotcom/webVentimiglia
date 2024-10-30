@@ -17,6 +17,10 @@ html, body{
     font-family: "Afacad", sans-serif!important;
 }
 
+.font-larger {
+    font-size: 30px;
+}
+
 /* ESTILOS NAVBAR */
 header {
     background-color: var(--primary-color)!important;
@@ -229,3 +233,8 @@ footer div {
     display: flex;
     align-items: center;
 }
+
+
+
+/* PRODUCTOS */
+
